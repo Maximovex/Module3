@@ -1,4 +1,4 @@
-def send_email(message, recipient, sender = "university.help@gmail.com"):
+def send_email(message, recipient, *, sender = "university.help@gmail.com"):
     email_ext=('.com','.ru','.net','.org')
     allright=False
     if '@'in (recipient and sender):
