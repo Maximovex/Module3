@@ -1,5 +1,9 @@
 def print_params(a = 1, b = 'строка', c = True):
     print(a,b,c)
+print_params(4)
+print_params('hello',10)
+print_params(5,True,'Hello')
+print_params()
 print_params(b=25)
 print_params(c=[1,2,3])
 values_list=[1,True,'Example']
